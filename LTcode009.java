@@ -24,7 +24,7 @@ class Solution {
     }
 }
 
-class LTCode009{
+class LTcode009{
     public static void main(String[] args) {
       
         Solution solution = new Solution();
