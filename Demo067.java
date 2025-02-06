@@ -1,12 +1,9 @@
 class Demo067{
     public static void main(String[] args) {
-        int[] arr = {9,8,7,6,5,4,3,2,1};
-        int n = arr.length;
-        for(int i : arr) {
-            if(i%2==0){
-                System.out.println(i);
-            }
-            i++;
+        int[] arr = {22,11,33,55,44,77,66};
+        System.out.print("Elements at even index position are: ");
+        for(int i = 2; i<arr.length;i+=2){
+            System.out.print(arr[i]+",");
         }
     }
 }
